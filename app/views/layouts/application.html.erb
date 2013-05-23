@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="AngularCasts">
 <head>
-  <title>AngularCasts</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <title>Angular Casts</title>
+  <link href="//releases.flowplayer.org/5.4.0/skin/minimalist.css" rel="stylesheet">
+  <%= stylesheet_link_tag "application", media: "all" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    Angular Casts
+  </header>
 
-<%= yield %>
+  <%= yield %>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script src="//releases.flowplayer.org/5.4.0/flowplayer.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js"></script>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>
