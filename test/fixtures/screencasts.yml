@@ -1,0 +1,28 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+fast_rails_commands:
+  title: "Fast Rails Commands"
+  summary: "Rails commands, such as generators, migrations, and tests, have a tendency to be slow because they need to load the Rails app each time. Here I show three tools to make this faster: Zeus, Spring, and Commands."
+  duration: "8:06"
+  link: "http://railscasts.com/episodes/412-fast-rails-commands"
+  published_at: "Thu, 04 Apr 2013 00:00:00 -0700"
+  source: "railscasts"
+  video_url: "http://media.railscasts.com/assets/episodes/videos/412-fast-rails-commands.mp4"
+
+wizard_forms_with_wicked:
+  title: "Wizard Forms with Wicked"
+  summary: "Creating a wizard form can be tricky in Rails. Learn how Wicked can help by turning a controller into a series of multiple steps."
+  duration: "11:57"
+  link: "http://railscasts.com/episodes/346-wizard-forms-with-wicked"
+  published_at: "Thu, 03 May 2012 00:00:00 -0700"
+  source: "railscasts"
+  video_url: "http://media.railscasts.com/assets/episodes/videos/346-wizard-forms-with-wicked.mp4"
+
+sending_html_emails:
+  title: "Sending HTML Email"
+  summary: "HTML email can be difficult to code because any CSS should be made inline. Here I present a few tools for doing this including the premailer-rails3 and roadie gems."
+  duration: "5:42"
+  link: "http://railscasts.com/episodes/312-sending-html-email"
+  published_at: "Mon, 02 Jan 2012 00:00:00 -0800"
+  source: "railscasts"
+  video_url: "http://media.railscasts.com/assets/episodes/videos/312-sending-html-email.mp4"
